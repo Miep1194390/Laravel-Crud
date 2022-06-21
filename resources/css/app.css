@@ -1,0 +1,92 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Verwijder_Button {
+  background-color: rgba(232, 25, 25, 0.82);
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 5px;
+  text-align: center;
+  transition: 200ms;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Wijzigen_Button {
+    background-color: rgb(208, 208, 33);
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-align: center;
+    transition: 200ms;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.Bekijken_Button {
+    background-color: rgb(28, 205, 28);
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-align: center;
+    transition: 200ms;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.padding {
+    padding-top: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-618079.jpg&fm=jpg');
+    background-size:cover;
+}
+
+.HeaderTextIndex {
+    display: flex;
+    justify-content: center;
+}
+
+.whitebg {
+    background-color: #f7f7f7;
+    width: 60vw;
+    height: 20vh;
+    opacity: 0.9;
+    border-radius: 7px
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
