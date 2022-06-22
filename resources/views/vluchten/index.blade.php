@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>CRUD</title>
 </head>
 
 
@@ -46,7 +46,7 @@
                             <tbody>
                                 @foreach($vluchten as $item)
                                 <tr>
-                                    <td>{{ $loop->iteration }}</td>
+                                    <td>{{ $item->id }}</td>
                                     <td>{{ $item->vertrekplaats }}</td>
                                     <td>{{ $item->bestemming }}</td>
                                     <td>
